@@ -27,13 +27,14 @@ body {
 
 /* Variables de color */
 :root {
-  --primary-orange: #ff9d6c;
-  --primary-yellow: #ffea00;
-  --dark-bg: #1f2026;
-  --darker-bg: #1a1b1f;
+  --primary-blue: #0052cc;
+  --secondary-blue: #1e88e5;
+  --accent-blue: #4fc3f7;
+  --dark-bg: #172b4d;
+  --darker-bg: #0f1e36;
   --light-gray: #f5f8f7;
-  --text-dark: #495057;
-  --btn-gradient: linear-gradient(135deg, #ff9d6c 0%, #ffea00 100%);
+  --text-dark: #344563;
+  --btn-gradient: linear-gradient(135deg, #0052cc 0%, #4fc3f7 100%);
 }
 
 /* Estilos generales */
@@ -48,12 +49,12 @@ body {
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #ff8a4c 0%, #e6d300 100%);
+  background: linear-gradient(135deg, #004099 0%, #3ab1e5 100%);
   border: none;
 }
 
 .text-primary {
-  color: var(--primary-orange) !important;
+  color: var(--primary-blue) !important;
 }
 
 /* Navbar styles */
@@ -99,7 +100,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--primary-orange) !important;
+  color: var(--accent-blue) !important;
 }
 
 main {
@@ -150,7 +151,7 @@ main {
 .feature-icon {
   font-size: 48px;
   margin-bottom: 20px;
-  color: var(--primary-orange);
+  color: var(--primary-blue);
 }
 
 .section-heading {

@@ -7,32 +7,36 @@ function AboutSection() {
         <div className="row align-items-center">
           <div className="col-lg-6 mb-4 mb-lg-0">
             <img 
-              src="https://images.unsplash.com/photo-1560472355-109703aa3edc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
-              alt="FutGen Financials" 
+              src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80" 
+              alt="Futbolista profesional" 
               className="img-fluid rounded-4 shadow"
             />
           </div>
           <div className="col-lg-6 ps-lg-5 text-start">
-            <h2 className="display-5 fw-bold mb-4">FutGen</h2>
+            <span className="badge bg-primary text-white mb-3 px-3 py-2">Nuestra Misión</span>
+            <h2 className="display-5 fw-bold mb-4">FutGen Hub</h2>
             <p className="lead mb-4">
-              En FutGen, ofrecemos una plataforma profesional y accesible para gestionar sus inversiones, 
-              asegurando un futuro financiero sólido y confiable para usted y su familia.
+              La primera plataforma web "All-in-One" orientada al mundo del fútbol. Creamos FutGen Hub tras ver cómo futbolistas profesionales 
+              como "RA" (Argentina) y "OS" (Nigeria) tardaron 16 y 27 días respectivamente en enviar dinero a sus familias.
             </p>
-            <div className="d-flex mb-4">
-              <div className="me-4">
-                <div className="display-6 fw-bold text-primary">98%</div>
-                <p>Satisfacción</p>
+            <p className="mb-4">
+              Empoderamos a jugadores, clubes y agentes con soluciones financieras resilientes, permitiéndoles gestionar sus recursos de forma transparente y acorde a las regulaciones de FIFA y UEFA.
+            </p>
+            <div className="d-flex flex-wrap mb-4">
+              <div className="me-4 mb-3">
+                <div className="display-6 fw-bold text-primary">211</div>
+                <p>Países con cobertura</p>
               </div>
-              <div className="me-4">
-                <div className="display-6 fw-bold text-primary">15+</div>
-                <p>Años experiencia</p>
+              <div className="me-4 mb-3">
+                <div className="display-6 fw-bold text-primary">32%</div>
+                <p>Clubes con restricciones</p>
               </div>
-              <div>
-                <div className="display-6 fw-bold text-primary">24/7</div>
-                <p>Soporte</p>
+              <div className="mb-3">
+                <div className="display-6 fw-bold text-primary">Web3</div>
+                <p>Tecnología segura</p>
               </div>
             </div>
-            <a href="#" className="btn btn-primary btn-lg px-4 rounded-pill gradient-button">Conoce más</a>
+            <a href="#contacto" className="btn btn-primary btn-lg px-4 rounded-pill gradient-button">Súmate a la revolución</a>
           </div>
         </div>
       </div>

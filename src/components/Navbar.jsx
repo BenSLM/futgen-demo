@@ -5,10 +5,10 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <div className="rounded-circle d-flex align-items-center justify-content-center me-2" style={{width: '36px', height: '36px', background: 'linear-gradient(135deg, #ff9d6c 0%, #ffea00 100%)'}}>
+          <div className="rounded-circle d-flex align-items-center justify-content-center me-2" style={{width: '36px', height: '36px', background: 'var(--btn-gradient)'}}>
             <i className="bi bi-wallet2 text-white fs-5"></i>
           </div>
-          <span className="fw-bold">FutGen</span>
+          <span className="fw-bold">FutGen Hub</span>
         </Link>
         
         <button 
@@ -29,16 +29,19 @@ function Navbar() {
               <Link className="nav-link" to="/">Inicio</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link" to="/services">Servicios</Link>
+              <Link className="nav-link" to="/player">Jugadores</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link" to="/customers">Clientes</Link>
+              <Link className="nav-link" to="/club">Clubes</Link>
+            </li>
+            <li className="nav-item mx-2">
+              <Link className="nav-link" to="/agent">Agentes</Link>
+            </li>
+            <li className="nav-item mx-2">
+              <Link className="nav-link" to="/technology">Tecnología</Link>
             </li>
             <li className="nav-item mx-2">
               <Link className="nav-link" to="/about">Nosotros</Link>
-            </li>
-            <li className="nav-item mx-2">
-              <Link className="nav-link" to="/contact">Contacto</Link>
             </li>
           </ul>
         </div>
@@ -54,7 +57,7 @@ function Navbar() {
             </ul>
           </div>
           
-          <Link to="/login" className="btn btn-sm btn-link text-white text-decoration-none me-2">Iniciar Sesión</Link>
+          <Link to="/demo" className="btn btn-sm btn-outline-light rounded-pill px-3 py-1 me-2">Demo</Link>
           <Link to="/signup" className="btn btn-sm btn-primary rounded-pill px-4 py-1">Registrarse</Link>
         </div>
       </div>
