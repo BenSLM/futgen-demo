@@ -82,45 +82,6 @@ function PlayerView() {
             </div>
           </div>
         </div>
-        
-        <div className="row mb-5">
-          <div className="col-lg-10 mx-auto">
-            <div className="card border-0 bg-light p-4 rounded-4">
-              <div className="row align-items-center">
-                <div className="col-md-7">
-                  <h3>Tarjeta FutGen Players</h3>
-                  <p>Gestiona tus gastos diarios con nuestra tarjeta especializada para futbolistas profesionales, con beneficios exclusivos:</p>
-                  <ul className="mb-0">
-                    <li>Sin comisiones en pagos internacionales</li>
-                    <li>Reintegro en comercios seleccionados</li>
-                    <li>Seguro médico deportivo incluido</li>
-                    <li>Asistencia en viajes 24/7</li>
-                  </ul>
-                </div>
-                <div className="col-md-5 text-center mt-4 mt-md-0">
-                  <div className="card shadow-lg" style={{
-                    width: '280px', 
-                    height: '170px', 
-                    margin: '0 auto', 
-                    background: 'var(--btn-gradient)', 
-                    borderRadius: '12px',
-                    position: 'relative'
-                  }}>
-                    <div className="card-body position-relative" style={{color: 'white'}}>
-                      <div className="position-absolute" style={{top: '15px', right: '15px'}}>
-                        <i className="bi bi-wifi fs-3"></i>
-                      </div>
-                      <div className="position-absolute" style={{bottom: '15px', left: '15px'}}>
-                        <p className="mb-0 fw-bold">FutGen PLAYERS</p>
-                        <p className="mb-0 small">**** **** **** 7890</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
