@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import PlayerView from './pages/PlayerView'
 import ClubView from './pages/ClubView'
 import AgentView from './pages/AgentView'
+import TechnologyView from './pages/TechnologyView'
 import './App.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/player" element={<PlayerView />} />
           <Route path="/club" element={<ClubView />} />
           <Route path="/agent" element={<AgentView />} />
+          <Route path="/technology" element={<TechnologyView />} />
         </Routes>
       </main>
     </div>
