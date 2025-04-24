@@ -1,60 +1,85 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
   return (
-    <div className="hero-section">
-      <div className="container py-5">
-        <div className="row align-items-center py-5 hero-content">
-          <div className="col-lg-6 text-start">
-            <span className="badge bg-light text-dark mb-3 px-3 py-2 fs-6">FutGen Hub</span>
-            <h1 className="display-3 fw-bold mb-3 text-white">Una nueva generación está surgiendo</h1>
-            <p className="lead text-white mb-4">
-              La revolución financiera del fútbol global. Conectamos jugadores, clubes y agentes con soluciones financieras sin fronteras.
-            </p>
-            
-            <div className="d-flex flex-wrap gap-4 mb-4">
-              <div className="bg-white bg-opacity-25 p-3 rounded-3 text-white text-center">
-                <h3 className="mb-0 fw-bold">78%</h3>
-                <p className="small mb-0">Jugadores en bancarrota 5 años después del retiro</p>
+    <div className="position-relative">
+      <div className="position-absolute w-100 h-100" style={{
+        backgroundImage: 'url("https://images.unsplash.com/photo-1577223625816-6328da27d9ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")',
+        backgroundPosition: 'center 30%',
+        backgroundSize: 'cover',
+        opacity: '0.15'
+      }}></div>
+      
+      <div className="container-fluid py-5">
+        <div className="container py-5">
+          <div className="row align-items-center py-5">
+            <div className="col-lg-6 text-center text-lg-start position-relative">
+              <h1 className="display-3 fw-bold mb-4">Soluciones financieras para el mundo del fútbol</h1>
+              <p className="lead mb-4">
+                Simplificamos las finanzas para jugadores, agentes y clubes con tecnología de vanguardia que conecta el ecosistema futbolístico global
+              </p>
+              
+              <div className="d-flex flex-wrap gap-3 mb-5">
+                <Link to="/player" className="btn btn-primary btn-lg px-4 rounded-pill">Para Jugadores</Link>
+                <Link to="/agent" className="btn btn-outline-primary btn-lg px-4 rounded-pill">Para Agentes</Link>
+                <Link to="/club" className="btn btn-outline-primary btn-lg px-4 rounded-pill">Para Clubes</Link>
               </div>
-              <div className="bg-white bg-opacity-25 p-3 rounded-3 text-white text-center">
-                <h3 className="mb-0 fw-bold">27 días</h3>
-                <p className="small mb-0">Tiempo promedio de transferencias internacionales</p>
+              
+              <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-4 mt-4">
+                <div className="d-flex align-items-center">
+                  <i className="bi bi-shield-check fs-3 text-primary me-2"></i>
+                  <span>Seguridad Avanzada</span>
+                </div>
+                <div className="d-flex align-items-center">
+                  <i className="bi bi-globe fs-3 text-primary me-2"></i>
+                  <span>Cobertura Mundial</span>
+                </div>
+                <div className="d-flex align-items-center">
+                  <i className="bi bi-lightning-charge fs-3 text-primary me-2"></i>
+                  <span>Transferencias Rápidas</span>
+                </div>
               </div>
             </div>
             
-            <a href="#contacto" className="btn btn-light btn-lg px-4 py-2 rounded-pill">Conoce la solución</a>
-            <div className="mt-4 text-white-50">La plataforma financiera para el mundo del fútbol</div>
-          </div>
-          <div className="col-lg-6 d-none d-lg-block">
-            <div className="position-relative">
-              <div className="position-absolute" style={{top: '10%', right: '10%', zIndex: 3}}>
-                <div className="card bg-white p-3 shadow" style={{borderRadius: '12px', width: '280px'}}>
-                  <div className="d-flex align-items-center">
-                    <div className="rounded-circle p-2 me-3" style={{background: 'var(--btn-gradient)'}}>
-                      <i className="bi bi-shield-check text-white"></i>
+            <div className="col-lg-6 d-none d-lg-block position-relative">
+              <div className="position-relative ms-5">
+                <div className="bg-primary rounded-5 p-4 shadow-lg position-relative" style={{maxWidth: '500px', zIndex: 3}}>
+                  <div className="d-flex align-items-center mb-4">
+                    <div className="bg-white rounded-circle p-2 me-3">
+                      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Testimonial" className="rounded-circle" width="50" height="50" />
                     </div>
-                    <div className="text-start">
-                      <h6 className="mb-1">Transferencia Segura</h6>
-                      <p className="small mb-0 text-muted">Recibido por familia en Nigeria</p>
+                    <div>
+                      <h5 className="mb-0 text-white">Carlos Fuentes</h5>
+                      <p className="mb-0 text-white opacity-75">Jugador Profesional</p>
                     </div>
                   </div>
+                  <p className="text-white mb-0">
+                    "FutGen Hub transformó la manera en que manejo mis finanzas mientras juego en el extranjero. Ahora mi familia tiene acceso inmediato a los recursos que necesitan."
+                  </p>
+                </div>
+                
+                <div className="position-absolute bg-white rounded-5 p-4 shadow" style={{bottom: '-30px', right: '30px', maxWidth: '400px', zIndex: 2}}>
+                  <h5 className="mb-3">Beneficios Principales</h5>
+                  <ul className="list-unstyled mb-0">
+                    <li className="d-flex align-items-center mb-2">
+                      <i className="bi bi-check-circle-fill text-success me-2"></i>
+                      <span>Transferencias internacionales optimizadas</span>
+                    </li>
+                    <li className="d-flex align-items-center mb-2">
+                      <i className="bi bi-check-circle-fill text-success me-2"></i>
+                      <span>Gestión multimoneda integrada</span>
+                    </li>
+                    <li className="d-flex align-items-center">
+                      <i className="bi bi-check-circle-fill text-success me-2"></i>
+                      <span>Cumplimiento normativo automatizado</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <img 
-                src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" 
-                alt="Futbolista usando aplicación financiera" 
-                className="img-fluid rounded-4 shadow-lg"
-                style={{maxWidth: '90%'}}
-              />
             </div>
           </div>
         </div>
-      </div>
-      <div className="wave-bg">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="shape-fill"></path>
-        </svg>
       </div>
     </div>
   );

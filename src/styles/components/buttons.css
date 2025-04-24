@@ -1,0 +1,43 @@
+/* Estilos de botones */
+.btn-primary {
+  background: var(--btn-gradient);
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--hover-gradient);
+  border: none;
+}
+
+.btn-outline-primary {
+  color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgba(0, 82, 204, 0.1);
+}
+
+.gradient-button {
+  background: var(--btn-gradient);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.gradient-button:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+/* Botones redondeados */
+.btn-rounded {
+  border-radius: var(--border-radius-md);
+}
+
+.btn-pill {
+  border-radius: var(--border-radius-pill);
+} 

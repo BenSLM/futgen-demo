@@ -1,0 +1,47 @@
+/* Estilos del Navbar */
+.navbar {
+  background-color: var(--dark-bg) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: var(--spacing-sm);
+  padding-bottom: var(--spacing-sm);
+  width: 100% !important;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8) !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--accent-blue) !important;
+}
+
+.navbar .btn-primary {
+  background: var(--btn-gradient);
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.navbar .btn-primary:hover {
+  background: var(--alt-gradient);
+}
+
+/* Responsive navbar */
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+  }
+  
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+} 

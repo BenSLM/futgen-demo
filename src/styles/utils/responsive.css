@@ -1,0 +1,66 @@
+/* Utilidades responsivas */
+
+/* Breakpoints 
+  - xs: 0
+  - sm: 576px
+  - md: 768px
+  - lg: 992px
+  - xl: 1200px
+  - xxl: 1400px
+*/
+
+/* Responsive utilities */
+.d-none {
+  display: none !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+/* Responsive text */
+.text-center {
+  text-align: center !important;
+}
+
+@media (min-width: 576px) {
+  .text-sm-start {
+    text-align: left !important;
+  }
+  
+  .d-sm-block {
+    display: block !important;
+  }
+  
+  .d-sm-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-md-start {
+    text-align: left !important;
+  }
+  
+  .d-md-block {
+    display: block !important;
+  }
+  
+  .d-md-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-lg-start {
+    text-align: left !important;
+  }
+  
+  .d-lg-block {
+    display: block !important;
+  }
+  
+  .d-lg-none {
+    display: none !important;
+  }
+} 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 function AgentView() {
   return (
@@ -88,8 +89,8 @@ function AgentView() {
             <h3 className="mb-4">Potencia tu agencia con tecnología financiera avanzada</h3>
             <p>FutGen Hub te ayuda a concentrarte en lo más importante: representar y desarrollar a tus jugadores, mientras nosotros hacemos que el dinero fluya sin obstáculos.</p>
             <div className="d-flex justify-content-center gap-3 mt-4">
-              <a href="#" className="btn btn-primary rounded-pill px-4 py-2 gradient-button">Comenzar ahora</a>
-              <a href="#" className="btn btn-outline-primary rounded-pill px-4 py-2">Solicitar demostración</a>
+              <Link to="/contact?type=agent" className="btn btn-primary rounded-pill px-4 py-2 gradient-button">Comenzar ahora</Link>
+              <Link to="/contact?type=agent" className="btn btn-outline-primary rounded-pill px-4 py-2">Solicitar demostración</Link>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 function PlayerView() {
   return (
@@ -44,8 +45,8 @@ function PlayerView() {
                 Transfiere dinero a tu familia en tu país de origen con tarifas mínimas, sin importar dónde estés jugando.
               </p>
               <div className="mt-auto pt-3 border-top">
-                <div className="badge bg-primary mb-1">Ahorra hasta 80% en comisiones</div>
-                <div className="badge bg-success">Transferencias en minutos, no semanas</div>
+                <div className="badge bg-primary mb-1">Tarifas transparentes</div>
+                <div className="badge bg-success">Transferencias rápidas y seguras</div>
               </div>
             </div>
           </div>
@@ -60,7 +61,7 @@ function PlayerView() {
                 Mantén tus ingresos en múltiples monedas y realiza cambios cuando las tasas sean favorables.
               </p>
               <div className="mt-auto pt-3 border-top">
-                <div className="badge bg-primary mb-1">Soporta +40 divisas</div>
+                <div className="badge bg-primary mb-1">Diversidad de divisas</div>
                 <div className="badge bg-success">Tipos de cambio preferenciales</div>
               </div>
             </div>
@@ -85,11 +86,11 @@ function PlayerView() {
 
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
-            <h3 className="mb-4">Protege tu patrimonio para el largo plazo</h3>
-            <p>78% de los jugadores profesionales enfrentan dificultades financieras 5 años después del retiro. FutGen Hub te ayuda a evitar ser parte de esta estadística.</p>
+            <h3 className="mb-4">Asegura tu futuro financiero a largo plazo</h3>
+            <p>Nuestras soluciones están diseñadas para ayudarte a crear estabilidad financiera durante tu carrera activa y prepararte para una transición exitosa después del deporte.</p>
             <div className="d-flex justify-content-center gap-3 mt-4">
-              <a href="#" className="btn btn-primary rounded-pill px-4 py-2 gradient-button">Comenzar ahora</a>
-              <a href="#" className="btn btn-outline-primary rounded-pill px-4 py-2">Solicitar demostración</a>
+              <Link to="/contact?type=player" className="btn btn-primary rounded-pill px-4 py-2 gradient-button">Comenzar ahora</Link>
+              <Link to="/contact?type=player" className="btn btn-outline-primary rounded-pill px-4 py-2">Solicitar demostración</Link>
             </div>
           </div>
         </div>

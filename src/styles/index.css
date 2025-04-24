@@ -1,0 +1,23 @@
+/* Importaciones de archivos CSS */
+
+
+/* Base */
+@import './base/variables.css';
+@import './base/reset.css';
+
+
+/* Layouts */
+@import './layouts/container.css';
+
+
+/* Componentes */
+@import './components/navbar.css';
+@import './components/footer.css';
+@import './components/buttons.css';
+@import './components/hero.css';
+@import './components/cards.css';
+
+
+
+/* Utilities */
+@import './utils/responsive.css'; 

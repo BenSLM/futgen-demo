@@ -2,41 +2,55 @@ import React from 'react';
 
 function AboutSection() {
   return (
-    <div className="container-fluid bg-light py-5">
-      <div className="container py-5">
+    <div className="container-fluid py-5" style={{background: 'linear-gradient(160deg, var(--primary-blue) 0%, var(--secondary-blue) 100%)'}}>
+      <div className="container py-4">
         <div className="row align-items-center">
-          <div className="col-lg-6 mb-4 mb-lg-0">
-            <img 
-              src="https://images.unsplash.com/photo-1556056504-5c7696c4c28d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2076&q=80" 
-              alt="Futbolista profesional" 
-              className="img-fluid rounded-4 shadow"
-            />
-          </div>
-          <div className="col-lg-6 ps-lg-5 text-start">
-            <span className="badge bg-primary text-white mb-3 px-3 py-2">Nuestra Misión</span>
-            <h2 className="display-5 fw-bold mb-4">FutGen Hub</h2>
-            <p className="lead mb-4">
-              La primera plataforma web "All-in-One" orientada al mundo del fútbol. Creamos FutGen Hub tras ver cómo futbolistas profesionales 
-              como "RA" (Argentina) y "OS" (Nigeria) tardaron 16 y 27 días respectivamente en enviar dinero a sus familias.
-            </p>
-            <p className="mb-4">
-              Empoderamos a jugadores, clubes y agentes con soluciones financieras resilientes, permitiéndoles gestionar sus recursos de forma transparente y acorde a las regulaciones de FIFA y UEFA.
-            </p>
-            <div className="d-flex flex-wrap mb-4">
-              <div className="me-4 mb-3">
-                <div className="display-6 fw-bold text-primary">211</div>
-                <p>Países con cobertura</p>
-              </div>
-              <div className="me-4 mb-3">
-                <div className="display-6 fw-bold text-primary">32%</div>
-                <p>Clubes con restricciones</p>
-              </div>
-              <div className="mb-3">
-                <div className="display-6 fw-bold text-primary">Web3</div>
-                <p>Tecnología segura</p>
+          <div className="col-lg-6 mb-5 mb-lg-0">
+            <div className="p-4 p-lg-5 bg-white rounded-5 shadow-sm">
+              <h3 className="display-6 fw-bold mb-4">FutGen Hub</h3>
+              <p className="lead mb-4">
+                Una plataforma que <span className="text-primary fw-semibold">transforma</span> la manera en que jugadores, agentes y clubes manejan sus finanzas a nivel global
+              </p>
+              
+              <div className="row g-4 mt-2">
+                <div className="col-sm-6">
+                  <div className="d-flex">
+                    <i className="bi bi-check-circle-fill text-success fs-4 me-2"></i>
+                    <div>
+                      <h5 className="mb-1">Soluciones adaptadas</h5>
+                      <p className="text-muted mb-0">Creadas para el estilo de vida global del fútbol</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-6">
+                  <div className="d-flex">
+                    <i className="bi bi-check-circle-fill text-success fs-4 me-2"></i>
+                    <div>
+                      <h5 className="mb-1">Optimización financiera</h5>
+                      <p className="text-muted mb-0">Maximiza el valor de cada transacción</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <a href="#contacto" className="btn btn-primary btn-lg px-4 rounded-pill gradient-button">Súmate a la revolución</a>
+          </div>
+          
+          <div className="col-lg-6 text-center text-lg-start">
+            <h2 className="display-4 fw-bold text-white mb-4">Nuestra Misión</h2>
+            <p className="lead text-white opacity-90 mb-4">
+              Empoderar a futbolistas, agentes y clubes con herramientas financieras avanzadas que simplifican transacciones y expanden oportunidades globales
+            </p>
+            
+            <div className="d-flex flex-column flex-md-row gap-4 mt-4">
+              <div className="bg-white bg-opacity-10 p-3 rounded-4 text-white text-center text-md-start">
+                <h5 className="mb-2">Tecnología de Vanguardia</h5>
+                <p className="mb-0">Infraestructura de última generación con enfoque en seguridad y experiencia de usuario</p>
+              </div>
+              <div className="bg-white bg-opacity-10 p-3 rounded-4 text-white text-center text-md-start">
+                <h5 className="mb-2">Cobertura Global</h5>
+                <p className="mb-0">Acceso a mercados emergentes y consolidados del fútbol mundial</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

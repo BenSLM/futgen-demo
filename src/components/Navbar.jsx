@@ -38,10 +38,10 @@ function Navbar() {
               <Link className="nav-link" to="/agent">Agentes</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link" to="/technology">Tecnología</Link>
+              <Link className="nav-link" to="/about">Nosotros</Link>
             </li>
             <li className="nav-item mx-2">
-              <Link className="nav-link" to="/about">Nosotros</Link>
+              <Link className="nav-link" to="/contact">Contacto</Link>
             </li>
           </ul>
         </div>
@@ -57,8 +57,8 @@ function Navbar() {
             </ul>
           </div>
           
-          <Link to="/demo" className="btn btn-sm btn-outline-light rounded-pill px-3 py-1 me-2">Demo</Link>
-          <Link to="/signup" className="btn btn-sm btn-primary rounded-pill px-4 py-1">Registrarse</Link>
+          <Link to="/contact" className="btn btn-sm btn-outline-light rounded-pill px-3 py-1 me-2">Demo</Link>
+          <Link to="/contact" className="btn btn-sm btn-primary rounded-pill px-4 py-1">Registrarse</Link>
         </div>
       </div>
     </nav>

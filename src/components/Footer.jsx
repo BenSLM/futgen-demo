@@ -26,7 +26,7 @@ function Footer() {
               </div>
               <div className="d-flex align-items-center mb-3">
                 <i className="bi bi-telephone-fill me-3 fs-5 text-primary"></i>
-                <p className="mb-0 text-white">+54 911 7850 9000</p>
+                <p className="mb-0 text-white">+12 345 6789</p>
               </div>
             </div>
             
@@ -48,7 +48,7 @@ function Footer() {
               
               <div>
                 <h6 className="text-white mb-2">LLÁMANOS</h6>
-                <p className="text-white fs-4 mb-0">02 8541 9786</p>
+                <p className="text-white fs-4 mb-0">01 2345 6789</p>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ function Footer() {
         <div className="container-fluid px-4 px-md-5">
           <div className="row justify-content-between align-items-center">
             <div className="col-md-6">
-              <p className="text-white-50 small mb-md-0">© 2024 FutGen. Soluciones Financieras. Todos los derechos reservados</p>
+              <p className="text-white-50 small mb-md-0">© 2025 FutGen. Soluciones Financieras. Todos los derechos reservados</p>
             </div>
             <div className="col-md-6 text-md-end">
               <Link to="/privacy" className="text-white-50 small me-3 text-decoration-none">POLÍTICA DE PRIVACIDAD</Link>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 function ClubView() {
   return (
@@ -27,8 +28,9 @@ function ClubView() {
           <div className="col-lg-10 mx-auto text-center">
             <h2 className="section-heading mb-4">Gestión financiera integral para clubes</h2>
             <p className="lead mb-0">
-              El 32% de los clubes argentinos de primera división han sido sancionados por FIFA debido a problemas en transferencias.
-              FutGen Hub ofrece soluciones que aseguran el cumplimiento de normativas internacionales.
+              Los clubes deportivos enfrentan hoy desafíos únicos en la gestión de sus recursos. 
+              FutGen Hub proporciona soluciones tecnológicas avanzadas que simplifican la administración financiera 
+              y aseguran el cumplimiento de normativas internacionales.
             </p>
           </div>
         </div>
@@ -85,11 +87,11 @@ function ClubView() {
         
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
-            <h3 className="mb-4">Total cumplimiento normativo</h3>
-            <p>Todas nuestras soluciones cumplen con las regulaciones de FIFA, UEFA, CONMEBOL y confederaciones regionales, además de normativas GAFI, AML, KYC y KYT.</p>
+            <h3 className="mb-4">Excelencia en cumplimiento normativo</h3>
+            <p>Nuestras soluciones integran automáticamente los requisitos de regulaciones FIFA, UEFA, CONMEBOL y confederaciones regionales, facilitando la gestión de obligaciones administrativas.</p>
             <div className="d-flex justify-content-center gap-3 mt-4">
-              <a href="#" className="btn btn-primary rounded-pill px-4 py-2 gradient-button">Comenzar ahora</a>
-              <a href="#" className="btn btn-outline-primary rounded-pill px-4 py-2">Agendar demostración</a>
+              <Link to="/contact?type=club" className="btn btn-primary rounded-pill px-4 py-2 gradient-button">Comenzar ahora</Link>
+              <Link to="/contact?type=club" className="btn btn-outline-primary rounded-pill px-4 py-2">Agendar demostración</Link>
             </div>
           </div>
         </div>

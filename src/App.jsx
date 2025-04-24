@@ -5,7 +5,8 @@ import PlayerView from './pages/PlayerView'
 import ClubView from './pages/ClubView'
 import AgentView from './pages/AgentView'
 import TechnologyView from './pages/TechnologyView'
-import './App.css'
+import DashboardView from './pages/DashboardView'
+import ContactPage from './pages/ContactPage'
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path="/club" element={<ClubView />} />
           <Route path="/agent" element={<AgentView />} />
           <Route path="/technology" element={<TechnologyView />} />
+          <Route path="/dashboard" element={<DashboardView />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
     </div>
