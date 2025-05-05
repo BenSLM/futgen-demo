@@ -1,6 +1,6 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: 'Exo', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -14,12 +14,15 @@
 }
 
 a {
+  font-family: 'Exo', system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
+  transition: color 0.2s ease;
 }
 a:hover {
   color: #535bf2;
+  transform: translateX(2px);
 }
 
 body {
@@ -31,7 +34,14 @@ body {
 }
 
 h1 {
+  font-family: 'Exo', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 700;
   font-size: 3.2em;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
   line-height: 1.1;
 }
 

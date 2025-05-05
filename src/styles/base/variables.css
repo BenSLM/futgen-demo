@@ -1,4 +1,14 @@
 :root {
+  /* Tipografía */
+  --font-family-primary: 'Exo', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --line-height-base: 1.6;
+  --letter-spacing-normal: 0;
+  --letter-spacing-tight: -0.5px;
+
   /* Colores principales */
   --primary-blue: #0052cc;
   --secondary-blue: #1e88e5;
